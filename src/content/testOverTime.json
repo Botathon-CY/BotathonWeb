@@ -1,0 +1,61 @@
+[{
+  "time": "2019-11-12T00:00:00",
+  "name": "morriston",
+  "predicted_space": 350,
+  "reason": "overnight so no clinics"
+},
+  {
+    "time": "2019-11-12T01:00:00",
+    "name": "morriston",
+    "predicted_space": 350,
+    "reason": "overnight so no clinics"
+  },
+  {
+    "time": "2019-11-12T02:00:00",
+    "name": "morriston",
+    "predicted_space": 350,
+    "reason": "overnight so no clinics"
+  },
+  {
+    "time": "2019-11-12T03:00:00",
+    "name": "morriston",
+    "predicted_space": 350,
+    "reason": "overnight so no clinics"
+  },
+  {
+    "time": "2019-11-12T04:00:00",
+    "name": "morriston",
+    "predicted_space": 350,
+    "reason": "overnight so no clinics"
+  },
+  {
+    "time": "2019-11-12T05:00:00",
+    "name": "morriston",
+    "predicted_space": 350,
+    "reason": "overnight so no clinics"
+  },
+  {
+    "time": "2019-11-12T06:00:00",
+    "name": "morriston",
+    "predicted_space": 350,
+    "reason": "overnight so no clinics"
+  },
+  {
+    "time": "2019-11-12T07:00:00",
+    "name": "morriston",
+    "predicted_space": 300,
+    "reason": "walk in clinics start"
+  },
+  {
+    "time": "2019-11-12T08:00:00",
+    "name": "morriston",
+    "predicted_space": 200,
+    "reason": "appointments"
+  },
+  {
+    "time": "2019-11-12T09:00:00",
+    "name": "morriston",
+    "predicted_space": 20,
+    "reason": "hospital in full swing"
+  }
+  ]

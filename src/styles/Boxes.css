@@ -1,0 +1,26 @@
+.outerBox{
+    width: 25%;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 250px;
+    background-color: #42413c;
+    color: white;
+
+}
+
+.valueBox{
+    font-size: 92px;
+    height: 150px;
+    padding-top: 50px;
+}
+
+.nameBox{
+    font-size: xx-large;
+    padding-bottom: 10px;
+    height: 100px;
+}
+
+.label{
+    color: white;
+}

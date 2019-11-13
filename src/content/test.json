@@ -1,0 +1,20 @@
+{
+  "parking_areas": [
+    {
+      "name": "NORTH",
+      "spaces": 6
+    },
+    {
+      "name": "SOUTH",
+      "spaces": 4
+    },
+    {
+      "name": "EAST",
+      "spaces": 4
+    }
+  ],
+  "time": "2019-11-12T15:00:00",
+  "name": "morriston",
+  "predicted_space": 14,
+  "reason": "hackathon finishes at 4pm"
+}
