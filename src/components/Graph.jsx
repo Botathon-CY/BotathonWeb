@@ -8,11 +8,7 @@ import Space from "./Space";
 class Graph extends Component {
 
 
-
-
     render() {
-
-        const MSEC_DAILY = 86400000;
 
 
         let hospital = require('../content/testOverTime.json');
@@ -22,12 +18,8 @@ class Graph extends Component {
 
         for(var i=0;i<hospital.length;i++){
 
-            const timestamp = new Date(hospital[i].time).getTime();
-            console.log(timestamp);
             data2.push({y: hospital[i].predicted_space, x: new Date(hospital[i].time)});
         }
-
-        console.log(data2);
 
 
         return (

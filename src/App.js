@@ -13,8 +13,7 @@ function App() {
         Hospital Parking
 
       <Spaces />
-      <br />
-        <Graph />
+
     </div>
   );
 }

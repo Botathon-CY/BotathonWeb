@@ -1,5 +1,6 @@
 import React from 'react';
 import Space from "./Space";
+import Graph from "./Graph";
 
 class Spaces extends React.Component {
 
@@ -43,6 +44,9 @@ class Spaces extends React.Component {
                             <Space numberValue={title.spaces}
                                    valueName={title.name}/>
                         )}
+
+                    <br />
+                    <Graph />
                 </div>);
             }
 
@@ -64,6 +68,7 @@ class Spaces extends React.Component {
                   Parking for  {this.state.hospitalName}
                 </p>
                 {this.renderStuff()}
+
 
             </>
         )
