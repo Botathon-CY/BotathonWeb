@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {XYPlot, XAxis, YAxis, HorizontalGridLines, LineSeries} from 'react-vis';
 import "react-vis/dist/style.css";
 import Space from "./Space";
+import '../styles/Boxes.css';
 
 
 
@@ -23,15 +24,17 @@ class Graph extends Component {
 
 
         return (
+            <div className="graphDiv">
             <XYPlot xType="time"
                 width={1000}
-                height={600}>
+                height={400}>
                 <HorizontalGridLines />
                 <LineSeries
                     data={data2}/>
-                <XAxis title="X Axis"/>
-                <YAxis title="Y Axis"/>
+                <XAxis title="Time"/>
+                <YAxis title="Spaces"/>
             </XYPlot>
+            </div>
         );
     }
 

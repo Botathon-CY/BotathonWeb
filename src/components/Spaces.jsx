@@ -1,6 +1,7 @@
 import React from 'react';
 import Space from "./Space";
 import Graph from "./Graph";
+import '../styles/Boxes.css';
 
 class Spaces extends React.Component {
 
@@ -38,7 +39,9 @@ class Spaces extends React.Component {
 
                 return (
                 <div>
-
+                    <h3>
+                        Current Parking Availability for  {this.state.hospitalName}
+                    </h3>
                     {
                         this.state.hospitalDetails.parking_areas.map(title =>
                             <Space numberValue={title.spaces}
@@ -46,6 +49,9 @@ class Spaces extends React.Component {
                         )}
 
                     <br />
+                    <h3>
+                        Anticipated Parking Availability for  {this.state.hospitalName}
+                    </h3>
                     <Graph />
                 </div>);
             }
@@ -55,18 +61,16 @@ class Spaces extends React.Component {
     render() {
         return(
             <>
-                <p>
+                <h2>
                 Enter the name of a hospital below
 
-                </p>
+                </h2>
                 <form onSubmit={this.handleChange}>
-                <input type="text" ref={input => this.name = input}></input>
+                <input type="text" className="textBox" ref={input => this.name = input}></input>
                  <br />
-                <button>Find</button>
+                <button className="buttonStyle">Find</button>
                 </form>
-                <p>
-                  Parking for  {this.state.hospitalName}
-                </p>
+
                 {this.renderStuff()}
 
 

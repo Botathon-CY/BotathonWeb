@@ -1,26 +1,46 @@
 .outerBox{
-    width: 25%;
+    width: 15%;
     display: inline-block;
     margin-left: 20px;
     margin-right: 20px;
-    height: 250px;
+    height: 140px;
     background-color: #42413c;
     color: white;
 
 }
 
 .valueBox{
-    font-size: 92px;
-    height: 150px;
-    padding-top: 50px;
+    font-size: 65px;
+    height: 95px;
+    padding-top: 20px;
 }
 
 .nameBox{
-    font-size: xx-large;
+    font-size: large;
     padding-bottom: 10px;
-    height: 100px;
+    height: 25px;
 }
 
 .label{
     color: white;
+}
+
+.textBox{
+    height: 30px;
+    width: 300px;
+    font-size: large;
+}
+
+.buttonStyle{
+    height: 30px;
+    width: 100px;
+    font-size: large;
+    margin-top: 20px;
+}
+
+.graphDiv{
+    align-content: center;
+    margin: auto;
+    width: 60%;
+    margin-top:20px;
 }
